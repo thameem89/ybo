@@ -110,48 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  /* ==========================================
-     INQUIRY FORM SUBMISSION & MODAL POPUP
-     ========================================== */
-  const inquiryForm = document.getElementById('inquiry-form');
-  const popupModal = document.getElementById('popup-modal');
-  const closeModalBtn = document.getElementById('close-modal');
 
-  if (inquiryForm) {
-    inquiryForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-
-      // Collect data (for simulation)
-      const data = {
-        name: document.getElementById('form-name').value,
-        email: document.getElementById('form-email').value,
-        phone: document.getElementById('form-phone').value,
-        subject: document.getElementById('form-subject').value,
-        message: document.getElementById('form-message').value
-      };
-
-      console.log('Form Inquiry Data Submitted:', data);
-
-      // Show success modal popup
-      popupModal.classList.add('show');
-
-      // Reset form
-      inquiryForm.reset();
-    });
-  }
-
-  if (closeModalBtn) {
-    closeModalBtn.addEventListener('click', () => {
-      popupModal.classList.remove('show');
-    });
-  }
-
-  // Close modal when clicking outside content
-  popupModal.addEventListener('click', (e) => {
-    if (e.target === popupModal) {
-      popupModal.classList.remove('show');
-    }
-  });
 
 
   /* ==========================================
