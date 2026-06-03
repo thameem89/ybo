@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>YBO Delights | Premium Chocolates & Roasted Nuts Dubai</title>
+  <meta name="description" content="Welcome to YBO Delights (Your Best Option for Delights) in Deira, Dubai. Discover our exquisite selection of handcrafted Belgian chocolates, gourmet caramelized nut clusters, and premium luxury gift boxes.">
+  <meta name="keywords" content="YBO Delights, chocolate shop Dubai, gourmet nuts Deira, luxury chocolates Dubai, nut clusters, chocolate gift boxes Dubai, Al Safwa Al Byda">
+  <meta name="author" content="YBO Delights">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="YBO Delights | Premium Chocolates & Roasted Nuts Dubai">
+  <meta property="og:description" content="Indulge in the finest chocolates and gourmet roasted nuts at YBO Delights, Deira, Dubai. Handcrafted sweetness, premium quality.">
+  <meta property="og:image" content="assets/hero_chocolate_nuts.png">
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header id="main-header" class="glass-header">
+    <div class="container header-container">
+      <a href="#hero" class="logo logo-img-link">
+        <img src="assets/logo.png" alt="YBO Delights Logo" class="logo-img">
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#menu" class="nav-link">Our Menu</a></li>
+          <li><a href="#socials" class="nav-link">Socials</a></li>
+          <li><a href="#contact" class="nav-link">Find Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-outline btn-sm">Inquire Now</a>
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg-overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="hero-subtitle">Your Best Option for Delights</span>
+        <h1 class="hero-title">Gourmet Chocolates & <br><span class="text-gold">Artisan Roasted Nuts</span></h1>
+        <p class="hero-description">Experience pure confectionery mastery. Handcrafted chocolates and perfectly roasted premium nuts sourced globally and curated in the heart of Dubai.</p>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">Explore Menu</a>
+          <a href="#about" class="btn btn-secondary">Our Story</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section scroll-reveal">
+    <div class="container">
+      <div class="grid grid-2-col align-center">
+        <div class="about-image-wrapper">
+          <img src="assets/hero_chocolate_nuts.png" alt="YBO Delights chocolate and nuts curation" class="about-img">
+          <div class="gold-frame-decor"></div>
+        </div>
+        <div class="about-content">
+          <span class="section-tag">Luxury Taste</span>
+          <h2 class="section-title">Why YBO is <span class="text-gold">Your Best Option</span></h2>
+          <p class="section-desc">At YBO Delights, we believe that premium confectioneries are not just treats—they are moments of absolute bliss. Locally managed by Al Safwa Al Byda in Dubai, we combine traditional roasting expertise with modern chocolate artistry to craft rich, mouthwatering delights.</p>
+          
+          <div class="features-list">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-candy-cane"></i></div>
+              <div class="feature-text">
+                <h3>Artisanal Chocolates</h3>
+                <p>Silky, rich Belgian-grade chocolate blended with delicious fillings.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-seedling"></i></div>
+              <div class="feature-text">
+                <h3>Gourmet Roasted Nuts</h3>
+                <p>Freshly selected hazelnuts, almonds, and pistachios roasted to golden perfection.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-gift"></i></div>
+              <div class="feature-text">
+                <h3>Luxurious Packaging</h3>
+                <p>Elegantly crafted gift assortments perfect for celebrations and corporate gifting.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu / Showcase Section -->
+  <section id="menu" class="menu-section scroll-reveal">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Our Collection</span>
+        <h2 class="section-title">Signature <span class="text-gold">Delights</span></h2>
+        <p class="section-subtitle">Browse our curated menu of premium chocolates, caramelized nut clusters, and gift boxes.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All Delights</button>
+        <button class="filter-btn" data-filter="chocolates">Chocolates</button>
+        <button class="filter-btn" data-filter="nuts">Gourmet Nuts</button>
+        <button class="filter-btn" data-filter="gifts">Gift Boxes</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="grid grid-3-col menu-grid" id="menu-grid">
+        
+        <!-- Product 1: Chocolate Praline -->
+        <div class="menu-card" data-category="chocolates">
+          <div class="menu-img-wrapper">
+            <img src="assets/chocolate_praline.png" alt="Luxury Chocolate Praline" class="menu-img">
+            <span class="card-badge">Signature</span>
+          </div>
+          <div class="menu-info">
+            <h3 class="product-title">Hazelnut Praline Bonbon</h3>
+            <p class="product-desc">Velvety dark chocolate sphere filled with silky hazelnut cream and capped with a toasted golden hazelnut.</p>
+            <div class="product-footer">
+              <span class="product-price">Premium Quality</span>
+              <a href="#contact" class="btn btn-text">Order Info <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: Caramelized Nut Clusters -->
+        <div class="menu-card" data-category="nuts">
+          <div class="menu-img-wrapper">
+            <img src="assets/nut_cluster.png" alt="Gourmet Nut Clusters" class="menu-img">
+            <span class="card-badge">Best Seller</span>
+          </div>
+          <div class="menu-info">
+            <h3 class="product-title">Caramelized Cocoa Nut Clusters</h3>
+            <p class="product-desc">Crunchy, golden-roasted almonds and hazelnuts glazed in thin caramel and folded into premium milk chocolate.</p>
+            <div class="product-footer">
+              <span class="product-price">Artisan Roasted</span>
+              <a href="#contact" class="btn btn-text">Order Info <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3: Luxury Gift Box -->
+        <div class="menu-card" data-category="gifts">
+          <div class="menu-img-wrapper">
+            <img src="assets/gift_box.png" alt="Deluxe Gift Box" class="menu-img">
+            <span class="card-badge">Limited</span>
+          </div>
+          <div class="menu-info">
+            <h3 class="product-title">The Royal Assortment Box</h3>
+            <p class="product-desc">A premium textured display box featuring an elegant mix of milk and dark pralines, pecan clusters, and salted cashews.</p>
+            <div class="product-footer">
+              <span class="product-price">Gifting Box</span>
+              <a href="#contact" class="btn btn-text">Order Info <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4: Pistachio Truffle -->
+        <div class="menu-card" data-category="chocolates">
+          <div class="menu-img-wrapper">
+            <img src="assets/chocolate_praline.png" alt="Pistachio Truffle" class="menu-img" style="filter: hue-rotate(45deg);">
+            <span class="card-badge">New</span>
+          </div>
+          <div class="menu-info">
+            <h3 class="product-title">Dubai Pistachio Cream Truffle</h3>
+            <p class="product-desc">Decadent milk chocolate shell containing a luscious cream center infused with premium roasted Dubai pistachios.</p>
+            <div class="product-footer">
+              <span class="product-price">Special Blend</span>
+              <a href="#contact" class="btn btn-text">Order Info <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5: Roasted Hazelnuts -->
+        <div class="menu-card" data-category="nuts">
+          <div class="menu-img-wrapper">
+            <img src="assets/nut_cluster.png" alt="Roasted Hazelnuts" class="menu-img" style="filter: sepia(0.3) brightness(1.1);">
+            <span class="card-badge">Classic</span>
+          </div>
+          <div class="menu-info">
+            <h3 class="product-title">Salted Caramel Glazed Pecans</h3>
+            <p class="product-desc">Hand-selected jumbo pecan halves, slow-roasted and tossed in salted caramel with a dusting of sea salt.</p>
+            <div class="product-footer">
+              <span class="product-price">Slow Roasted</span>
+              <a href="#contact" class="btn btn-text">Order Info <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6: Custom Celebration Pack -->
+        <div class="menu-card" data-category="gifts">
+          <div class="menu-img-wrapper">
+            <img src="assets/gift_box.png" alt="Celebration Box" class="menu-img" style="filter: saturate(1.2) brightness(0.9);">
+            <span class="card-badge">Customizable</span>
+          </div>
+          <div class="menu-info">
+            <h3 class="product-title">Deluxe Chocolate & Nuts Platter</h3>
+            <p class="product-desc">Curated platter arranged with double-chocolate pralines, roasted macadamias, and almond-stuffed dates.</p>
+            <div class="product-footer">
+              <span class="product-price">Party Size</span>
+              <a href="#contact" class="btn btn-text">Order Info <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media & Feed Hub Section -->
+  <section id="socials" class="socials-section scroll-reveal">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Follow Our Journey</span>
+        <h2 class="section-title">Join Our <span class="text-gold">Community</span></h2>
+        <p class="section-subtitle">Stay updated with our daily chocolate creations, nut roasting videos, and special offers on social media.</p>
+      </div>
+
+      <div class="grid grid-3-col socials-grid">
+        <!-- Instagram Card -->
+        <a href="https://www.instagram.com/ybo_delights1405?igsh=NmVycjl2cWg2MXVh" target="_blank" rel="noopener noreferrer" class="social-card instagram-card">
+          <div class="social-icon-wrapper">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <h3 class="social-name">Instagram</h3>
+          <p class="social-handle">@ybo_delights1405</p>
+          <p class="social-desc">Watch behind-the-scenes tempering, luxury packaging boxes, and delicious close-ups.</p>
+          <span class="social-action">Follow Us <i class="fa-solid fa-chevron-right"></i></span>
+        </a>
+
+        <!-- TikTok Card -->
+        <a href="https://www.tiktok.com/@ybo.delights..cho?_r=1&_t=ZS-966DvGzhJEg" target="_blank" rel="noopener noreferrer" class="social-card tiktok-card">
+          <div class="social-icon-wrapper">
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+          <h3 class="social-name">TikTok</h3>
+          <p class="social-handle">@ybo.delights..cho</p>
+          <p class="social-desc">See our trending nut roasting satisfying reels, chocolate pours, and fun sound tracks.</p>
+          <span class="social-action">Watch Reels <i class="fa-solid fa-chevron-right"></i></span>
+        </a>
+
+        <!-- Facebook Card -->
+        <a href="https://www.facebook.com/share/1BLBh7NtgW/" target="_blank" rel="noopener noreferrer" class="social-card facebook-card">
+          <div class="social-icon-wrapper">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <h3 class="social-name">Facebook</h3>
+          <p class="social-handle">YBO Delights Dubai</p>
+          <p class="social-desc">Read reviews, chat with our team, order directly, and catch our local festival updates.</p>
+          <span class="social-action">Connect <i class="fa-solid fa-chevron-right"></i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Find Us & Contact Section -->
+  <section id="contact" class="contact-section scroll-reveal">
+    <div class="container">
+      <div class="grid grid-2-col">
+        
+        <!-- Contact Information & Map -->
+        <div class="contact-info-panel">
+          <span class="section-tag">Visit Our Boutique</span>
+          <h2 class="section-title">Where To <span class="text-gold">Find Us</span></h2>
+          <p class="contact-intro">Come experience the aroma of fresh roasting nuts and fine cocoa. We are conveniently located in Deira, the historic heart of Dubai's trading district.</p>
+          
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <i class="fa-solid fa-location-dot contact-icon"></i>
+              <div class="contact-text">
+                <h3>Store Address</h3>
+                <p>Shop 48, Hamada Building 3, Firj Murar, Deira, Dubai, United Arab Emirates</p>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <i class="fa-solid fa-phone contact-icon"></i>
+              <div class="contact-text">
+                <h3>Inquiries & Orders</h3>
+                <p>+971 4 XXX XXXX (Main Store)</p>
+                <p>+971 5X XXX XXXX (WhatsApp Wholesale)</p>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <i class="fa-solid fa-envelope contact-icon"></i>
+              <div class="contact-text">
+                <h3>Email Support</h3>
+                <p><a href="mailto:vibodelights1405@gmail.com" class="contact-email">vibodelights1405@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Embedded Map -->
+          <div class="map-wrapper">
+            <iframe 
+              src="https://maps.google.com/maps?q=Ybo%20Delights%20Shop%2048%20Hamada%20Building%203%20Firj%20Murar%20Deira%20Dubai&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+              width="100%" 
+              height="280" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="YBO Delights Location Map Deira Dubai">
+            </iframe>
+            <a href="https://maps.app.goo.gl/KPQVfJxLZKQtessb6" target="_blank" rel="noopener noreferrer" class="map-overlay-btn">
+              <i class="fa-solid fa-diamond-turn-right"></i> Get Directions
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Inquiry Form -->
+        <div class="contact-form-panel">
+          <h3>Send an Inquiry</h3>
+          <p>Looking for a custom corporate gift pack, wholesale roasted nuts, or a special order? Message us below and our sweet consultants will reply within 24 hours.</p>
+          
+          <form id="inquiry-form" class="inquiry-form">
+            <div class="form-group">
+              <label for="form-name">Full Name</label>
+              <input type="text" id="form-name" required placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="form-email">Email Address</label>
+              <input type="email" id="form-email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="form-phone">Phone Number (with country code)</label>
+              <input type="tel" id="form-phone" required placeholder="e.g. +971 50 123 4567">
+            </div>
+            <div class="form-group">
+              <label for="form-subject">Interest Area</label>
+              <select id="form-subject">
+                <option value="retail">Custom Gift Assortments</option>
+                <option value="wholesale">Wholesale Chocolates & Nuts</option>
+                <option value="delivery">Store Pickup / Local Delivery</option>
+                <option value="other">General Inquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="form-message">Your Message</label>
+              <textarea id="form-message" rows="4" required placeholder="Describe your request in detail..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit Message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#hero" class="logo logo-img-link">
+          <img src="assets/logo.png" alt="YBO Delights Logo" class="footer-logo-img">
+        </a>
+        <p class="footer-desc">Your Best Option for premium artisan chocolates and slow-roasted nuts in Dubai. Taste luxury in every bite.</p>
+        <div class="footer-social-icons">
+          <a href="https://www.instagram.com/ybo_delights1405?igsh=NmVycjl2cWg2MXVh" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@ybo.delights..cho?_r=1&_t=ZS-966DvGzhJEg" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://www.facebook.com/share/1BLBh7NtgW/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://maps.app.goo.gl/KPQVfJxLZKQtessb6" target="_blank" aria-label="Google Maps"><i class="fa-solid fa-map-location-dot"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Our Collection</a></li>
+          <li><a href="#socials">Social Media</a></li>
+          <li><a href="#contact">Contact & Store</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-hours">
+        <h3>Boutique Hours</h3>
+        <p><strong>Monday - Saturday:</strong> 10:00 AM - 10:00 PM</p>
+        <p><strong>Sunday:</strong> 2:00 PM - 9:00 PM</p>
+        <p class="footer-tagline text-gold">By ALSAFWA ALBYDA</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p>&copy; 2026 YBO Delights. All Rights Reserved.</p>
+        <p>Developed with luxury in mind.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Submission Popup Feedback -->
+  <div class="popup-modal" id="popup-modal">
+    <div class="popup-content">
+      <div class="popup-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <h3>Inquiry Submitted!</h3>
+      <p>Thank you for reaching out to YBO Delights. Our chocolate & nuts specialists will contact you shortly.</p>
+      <button class="btn btn-primary btn-sm" id="close-modal">Done</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
