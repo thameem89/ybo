@@ -274,18 +274,18 @@ body {
 }
 
 .logo-img {
-  height: 90px;
+  height: 140px;
   width: auto;
   object-fit: contain;
   transition: var(--transition-smooth);
 }
 
 .glass-header.scrolled .logo-img {
-  height: 65px;
+  height: 90px;
 }
 
 .footer-logo-img {
-  height: 140px;
+  height: 220px;
   width: auto;
   object-fit: contain;
   margin-bottom: 12px;
