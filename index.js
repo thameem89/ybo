@@ -185,4 +185,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* ==========================================
+     SOCIAL MEDIA CARD CLICK ENHANCEMENT
+     ========================================== */
+  const socialCards = document.querySelectorAll('.social-card');
+  socialCards.forEach(card => {
+    card.addEventListener('click', (e) => {
+      const url = card.getAttribute('href');
+      if (url) {
+        e.preventDefault();
+        window.open(url, '_blank', 'noopener,noreferrer');
+      }
+    });
+  });
+
 });
